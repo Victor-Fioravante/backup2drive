@@ -1,0 +1,33 @@
+# Segredos e credenciais — NUNCA subir
+.env
+auth/client_secret.json
+auth/token.json
+
+# Banco de dados local
+history.db
+
+# Binarios PostgreSQL embutidos
+pgbin/
+
+# Build / PyInstaller
+dist/
+build/
+__pycache__/
+*.pyc
+*.pyo
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# Logs gerados em runtime
+logs/
+logs_restore/
+*.log
+comprovante_envio_*.txt
+
+# Testes e ferramentas de dev
+tests/
+tools/
+.pytest_cache/
